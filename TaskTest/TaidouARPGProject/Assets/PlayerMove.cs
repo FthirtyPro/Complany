@@ -23,6 +23,7 @@ public class PlayerMove : MonoBehaviour {
         {
             anim.SetBool("Move",true);
             rigidbody.velocity = new Vector3(velocity * h, newVel.y, v * velocity);
+            transform.LookAt(new Vector3(h, 0, v) + transform.position); //自身坐标+向量 --》》目标朝向
 
         }
         else
