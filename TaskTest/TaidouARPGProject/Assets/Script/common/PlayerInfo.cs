@@ -17,6 +17,14 @@ public enum InfoType {
     All
 }
 
+public enum PosType
+{
+    Basic,
+    One,
+    Two,
+    Three,
+}
+
 public class PlayerInfo : MonoBehaviour {
 
     public static PlayerInfo _instance;

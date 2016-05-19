@@ -232,11 +232,14 @@
     <Compile Include="Assets\NGUI\Scripts\UI\UITexture.cs" />
     <Compile Include="Assets\NGUI\Scripts\UI\UITooltip.cs" />
     <Compile Include="Assets\NGUI\Scripts\UI\UIViewport.cs" />
-    <Compile Include="Assets\PlayerMove.cs" />
+    <Compile Include="Assets\PlayerAnimation.cs" />
     <Compile Include="Assets\Script\NpcDialogUI.cs" />
     <Compile Include="Assets\Script\NpcManager.cs" />
     <Compile Include="Assets\Script\PlayMove.cs" />
     <Compile Include="Assets\Script\SetCarmareFollow.cs" />
+    <Compile Include="Assets\Script\Transcript\PlayerMove.cs" />
+    <Compile Include="Assets\Script\Transcript\SkillButton.cs" />
+    <Compile Include="Assets\Script\Transcript\flowCamer.cs" />
     <Compile Include="Assets\Script\autoMoveLath.cs" />
     <Compile Include="Assets\Script\common\FollowTarget.cs" />
     <Compile Include="Assets\Script\common\GameController.cs" />
@@ -269,7 +272,7 @@
     <Compile Include="Assets\Script\txt\TaskItemUI.cs" />
     <Compile Include="Assets\Script\txt\TaskManager.cs" />
     <Compile Include="Assets\Script\txt\TaskUI.cs" />
-    <Compile Include="Assets\flowCamer.cs" />
+    <Compile Include="Assets\TranscriptManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Effects\Shaders\GlowAdditiveTwoColor.shader" />
