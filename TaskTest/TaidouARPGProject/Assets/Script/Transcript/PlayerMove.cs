@@ -22,9 +22,13 @@ public class PlayerMove : MonoBehaviour {
         if(Mathf.Abs(h)>0.05f|| (Mathf.Abs(v)>0.05f)) //keyboard Input
         {
             anim.SetBool("Move",true);
-            rigidbody.velocity = new Vector3(velocity * h, newVel.y, v * velocity);
-            transform.LookAt(new Vector3(h, 0, v) + transform.position); //自身坐标+向量 --》》目标朝向
+            if (anim.GetCurrentAnimatorStateInfo(1).IsName("Empty State"))
+            {
+                 rigidbody.velocity = new Vector3(velocity * h, newVel.y, v * velocity);
+                transform.LookAt(new Vector3(h, 0, v) + transform.position); //自身坐标+向量 --》》目标朝向
 
+            }
+         
         }
         else
         {

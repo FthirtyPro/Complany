@@ -49,6 +49,8 @@ public class SkillButton : MonoBehaviour {
       if(isPress)
       {
           coldTimer= coldTime;
+          if (maskSprite == null)
+              return;
           Disable();
 
       }
