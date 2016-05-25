@@ -17,13 +17,13 @@ public class PlayerEffect : MonoBehaviour {
 	void Update () {
 	
 
-        if(Input.GetMouseButtonDown(0))
-        {
-            Show();
-        }
+        //if(Input.GetMouseButtonDown(0))
+        //{
+        //    Show();
+        //}
 	}
 
-    void Show()
+    public void Show()
     {
         foreach(Renderer render in renderArray)
         {
