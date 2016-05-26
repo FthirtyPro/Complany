@@ -254,6 +254,7 @@
      <Compile Include="Assets\Script\txt\TaskItemUI.cs" />
      <Compile Include="Assets\Script\txt\TaskManager.cs" />
      <Compile Include="Assets\Script\txt\TaskUI.cs" />
+     <Compile Include="Assets\Soundmanager.cs" />
      <Compile Include="Assets\TranscriptManager.cs" />
      <None Include="Assets\NGUI\Examples\Shaders\Unlit - Depth Cutout.shader" />
      <None Include="Assets\NGUI\ReadMe - 3.6.8.txt" />

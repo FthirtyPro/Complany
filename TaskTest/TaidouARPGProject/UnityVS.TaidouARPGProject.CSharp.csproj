@@ -274,6 +274,7 @@
     <Compile Include="Assets\Script\txt\TaskItemUI.cs" />
     <Compile Include="Assets\Script\txt\TaskManager.cs" />
     <Compile Include="Assets\Script\txt\TaskUI.cs" />
+    <Compile Include="Assets\Soundmanager.cs" />
     <Compile Include="Assets\TranscriptManager.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -216,14 +216,14 @@ ModelImporter:
       events:
       - time: .777600646
         functionName: Attack
-        data: normal,attack1,,1,0
+        data: normal,attack1,attack1,1,0
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
       - time: .777600646
         functionName: Attack
-        data: normal,attack1,,1,0
+        data: normal,attack1,attack1,1,0
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 0
@@ -449,7 +449,7 @@ ModelImporter:
       events:
       - time: .916430354
         functionName: Attack
-        data: normal,attack2,,0,0
+        data: normal,attack2,attack2,0,0
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 0

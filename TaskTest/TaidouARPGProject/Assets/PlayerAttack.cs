@@ -19,7 +19,8 @@ public class PlayerAttack : MonoBehaviour {
         string[] proArray = args.Split(',');
         string effectName = proArray[1];
         ShowPlayerEffect(effectName);
-
+        string sounder = proArray[2];
+        Soundmanager._instance.PlayerSound(sounder);
 
     }
 
