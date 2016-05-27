@@ -21,6 +21,12 @@ public class PlayerAttack : MonoBehaviour {
         ShowPlayerEffect(effectName);
         string sounder = proArray[2];
         Soundmanager._instance.PlayerSound(sounder);
+        float moverDis =float.Parse( proArray[3]);
+        if(moverDis>0.1f)
+        {
+            iTween.MoveBy(this.gameObject, Vector3.forward * moverDis, 0.3f);
+        }
+
 
     }
 

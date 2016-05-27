@@ -30,6 +30,8 @@ public class Soundmanager : MonoBehaviour {
         AudioClip ac;
         if(audioDict.TryGetValue(audioName,out ac))
         {
+
+            AudioSource.PlayClipAtPoint(ac, Vector3.zero);
             this.audioSocure.PlayOneShot(ac);
         }
     }
