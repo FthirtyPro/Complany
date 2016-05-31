@@ -248,6 +248,7 @@
     <Compile Include="Assets\Script\common\MessageManager.cs" />
     <Compile Include="Assets\Script\common\NPCManager.cs" />
     <Compile Include="Assets\Script\common\PlayerInfo.cs" />
+    <Compile Include="Assets\Script\enemy.cs" />
     <Compile Include="Assets\Script\mainmenu\BottomBar.cs" />
     <Compile Include="Assets\Script\mainmenu\PlayerBar.cs" />
     <Compile Include="Assets\Script\mainmenu\PlayerStatus.cs" />
@@ -283,6 +284,7 @@
     <None Include="Assets\Effects\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
     <None Include="Assets\Effects\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
     <None Include="Assets\Effects\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+    <None Include="Assets\Enemy\Masked Orc\Read Me.txt" />
     <None Include="Assets\Model\Npc_boy\villarger_B_Boy\ReadMe [V 1.4]  02 06.txt" />
     <None Include="Assets\NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
     <None Include="Assets\NGUI\Examples\Atlases\Refractive\Refractive Font - Header.txt" />
